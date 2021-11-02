@@ -15,3 +15,17 @@ body{
     cursor: pointer;
     float: left;
 }
+
+.article > .img{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img >.heart{
+    position: absolute;
+    background-color: white;
+    font-size: 30px;
+    right: 0;
+}
