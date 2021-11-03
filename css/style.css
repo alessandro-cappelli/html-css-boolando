@@ -24,25 +24,26 @@ body{
 .img{
     width: 100%;
     position: relative;
+    margin-bottom: 24px;
 }
 
 .heart{
     position: absolute;
-    left: 570px;
+    left: 229px;
     background-color: white;
     border: 10px;
     font-size: 30px;
     top: 45px;
-    padding: 17px 26px;
+    padding: 7px 17px;
 }
 
 .sconto{
     background-color: red;
     color: white;
     font-weight: bold;
-    padding: 7px;
+    padding: 6px;
     position: absolute;
-    top: 862px;
+    top: 348px;
 }
 
 .material{
@@ -50,9 +51,9 @@ body{
     position: absolute;
     color: white;
     font-weight: bold;
-    padding: 7px;
-    top: 862px;
-    left: 59px;
+    padding: 6px;
+    top: 348px;
+    left: 54px;
 }
 
 .material2{
@@ -60,8 +61,8 @@ body{
     position: absolute;
     color: white;
     font-weight: bold;
-    padding: 7px;
-    top: 862px;
+    padding: 6px;
+    top: 348px;
 }
 
 .brand{
@@ -71,4 +72,20 @@ body{
 .description{
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.img-article{
+    width: 80%;
+}
+
+.purchase-price{
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
+
+.price{
+    color: black;
+    font-weight: lighter;
+    text-decoration: line-through;
 }
